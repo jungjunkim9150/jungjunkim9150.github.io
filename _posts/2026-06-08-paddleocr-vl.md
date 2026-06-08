@@ -34,7 +34,7 @@ Written By. Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, et al. (PaddlePaddle
 
 ### 1) 파이프라인 방식
 
-전문 모듈을 직렬로 연결함 (detection → recognition → table/formula 모델 …).
+전문 모듈을 직렬로 연결함 (레이아웃 검출 → 텍스트 인식 → 표·수식 전용 모델 → 후처리).
 
 | 항목 | 내용 |
 | --- | --- |
