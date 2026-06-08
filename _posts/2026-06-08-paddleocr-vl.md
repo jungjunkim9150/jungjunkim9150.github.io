@@ -1,5 +1,5 @@
 ---
-title: "PaddleOCR-VL: Boosting Multilingual Document Parsing via a 0.9B Ultra-Compact Vision-Language Model"
+title: PaddleOCR-VL
 author: jungjunkim
 date: 2026-06-08
 categories: [Paper]
@@ -7,6 +7,8 @@ tags: [VLM, OCR, Document Parsing]
 pin: true
 math: false
 ---
+> **PaddleOCR-VL: Boosting Multilingual Document Parsing via a 0.9B Ultra-Compact Vision-Language Model**
+
 Written By. Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, et al. (PaddlePaddle Team, Baidu Inc.)
 
 # 1. 문제 정의
