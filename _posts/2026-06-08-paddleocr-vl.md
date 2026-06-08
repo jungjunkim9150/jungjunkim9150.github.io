@@ -70,7 +70,7 @@ Written By. Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, et al. (PaddlePaddle
 
 페이지를 통째로 VLM에 던지지 않고 잘게 나눔으로써, end-to-end VLM이 떠안던 긴 시퀀스·hallucination·순서 오류를 구조적으로 회피함. 덕분에 인식 모델을 0.9B까지 줄이고도 정확도를 유지함.
 
-그 0.9B VLM이 작은 크기로 높은 인식력을 내는 비결이 **NaViT 스타일 비전 인코더**와 **ERNIE-4.5-0.3B 언어모델** 두 가지 선택임 (2.3, 2.4에서 상술).
+그 0.9B VLM이 작은 크기로 높은 인식력을 내는 비결이 **NaViT 스타일 비전 인코더**와 **ERNIE-4.5-0.3B 언어모델** 두 가지 선택임.
 
 ## 2.2 아키텍처
 
@@ -204,24 +204,3 @@ NaViT vs 고정해상도, ERNIE-0.3B 선택, 데이터 파이프라인 단계별
 - **element-level**: in-house 의존 큼 → 자기 데이터로 재검증 필요
 
 "0.9B가 72B를 이겼다"는 헤드라인은, 적어도 page-level에서는 사실임.
-
----
-
-# 실무 적용 관점 요약
-
-문서 파서 도입을 검토하는 경우 체크리스트.
-
-```
-1. 온프렘·자원 제약 배포가 중요하면 1순위 후보 (0.9B + 경량 detector)
-2. 다국어·표·수식 많은 문서에 특히 적합
-3. 단순 라인 OCR만 필요하면 과함
-4. 도입 전, 자사 도메인 샘플로 레이아웃 검출 + reading order 품질부터 확인
-   (여기가 무너지면 나머지는 무의미)
-5. element 인식은 공개 벤치 수치 말고 내 데이터로 직접 측정
-6. 목표 하드웨어에서 end-to-end latency·throughput 측정
-7. MinerU2.5·dots.ocr 등 동급 경량 모델과 동일 조건으로 비교
-```
-
----
-
-*원문: PaddleOCR-VL: Boosting Multilingual Document Parsing via a 0.9B Ultra-Compact Vision-Language Model (arXiv:2510.14528). 코드: github.com/PaddlePaddle/PaddleOCR*
