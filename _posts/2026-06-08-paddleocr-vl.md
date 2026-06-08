@@ -1,6 +1,6 @@
 ---
 title: "PaddleOCR-VL: Boosting Multilingual Document Parsing via a 0.9B Ultra-Compact Vision-Language Model"
-author: seokgi
+author: jungjunkim
 date: 2026-06-08
 categories: [Paper]
 tags: [VLM, OCR, Document Parsing]
