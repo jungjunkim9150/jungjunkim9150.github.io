@@ -64,6 +64,9 @@ Authors: Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, et al. (PaddlePaddle Te
 
 - 문서 이미지 → 레이아웃 분석(PP-DocLayoutV2) → 요소 잘라내기 → 요소 인식(PaddleOCR-VL-0.9B) → 후처리 → Markdown/JSON
 
+![PaddleOCR-VL 전체 구조](/assets/img/paddle_ocr_overview.png)
+_PaddleOCR-VL 전체 개요: 비정형 문서 → 레이아웃 분석 → 요소 인식 → 구조화된 Markdown/JSON_
+
 ## 2.1 핵심 아이디어
 
 > 레이아웃(요소 위치 + 읽기 순서)은 작은 전용 detector가 먼저 잡고, 인식은 잘라낸 요소 조각만 0.9B VLM이 담당함.
