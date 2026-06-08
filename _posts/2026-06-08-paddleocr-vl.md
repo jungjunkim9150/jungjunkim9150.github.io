@@ -9,7 +9,7 @@ math: false
 ---
 > **PaddleOCR-VL: Boosting Multilingual Document Parsing via a 0.9B Ultra-Compact Vision-Language Model**
 
-Written By. Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, et al. (PaddlePaddle Team, Baidu Inc.)
+Authors: Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, et al. (PaddlePaddle Team, Baidu Inc.)
 
 # 1. 문제 정의
 
@@ -58,7 +58,7 @@ Written By. Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, et al. (PaddlePaddle
 
 # 2. 제안 방법: PaddleOCR-VL
 
-논문은 이 trade-off를 **역할 분리**로 해소하는 2단계 문서 파서 PaddleOCR-VL을 제안함. arXiv:2510.14528, 2025년 10월 공개, 109개 언어 지원, Apache 라이선스 오픈소스.
+논문은 이 trade-off를 **역할 분리**로 해소하는 2단계 문서 파서 PaddleOCR-VL을 제안함. 109개 언어를 지원하며 오픈소스로 공개됨.
 
 전체 흐름은 다음과 같음.
 
