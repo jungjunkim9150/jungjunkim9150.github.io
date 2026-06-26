@@ -11,7 +11,7 @@ math: false
 
 Authors: Aditya Gaydhani, Guangyue Xu, Dhanush Kamath, Ankit Singh, Alex Li (Target Corporation) — arXiv 2602.23530, 2026 (Preprint).
 
-> 산업 현장 논문임. Target.com에 실제 배포됐고, 학술적 신규 알고리즘보다 **"여러 검색 채널의 결과를 어떻게 하나의 순위로 합치느냐"**는 실무 문제를 LTR로 다시 정의한 게 핵심임. 검색 파이프라인 `retrieval → ranking → re-ranking` 중 마지막 단계(정확히는 채널 병합/재랭킹)에 위치함. 클릭·장바구니·구매 같은 engagement 신호를 라벨이자 피처로 동시에 쓰는 전형적인 e-commerce LTR 계열이고, "좋아요/찜" 같은 명시적 인기 신호도 이 틀에서는 engagement 피처의 한 종류로 들어감. 5쪽짜리 짧은 인더스트리 트랙 논문이라, 깊이보다는 "실배포까지 간 설계 선택"을 읽는 게 맞음.
+> **"여러 검색 채널의 결과를 어떻게 하나의 순위로 합치느냐"**는 문제를 LTR로 다시 정의한 논문임. 검색 파이프라인 `retrieval → ranking → re-ranking` 중 마지막 단계(채널 병합/재랭킹)에 위치함. 클릭·장바구니·구매 같은 engagement 신호를 라벨이자 피처로 동시에 쓰는 전형적인 e-commerce LTR 계열이고, "좋아요/찜" 같은 명시적 인기 신호도 이 틀에서는 engagement 피처의 한 종류로 들어감.
 
 ---
 
